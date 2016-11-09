@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/todoTitle"
+        android:textStyle="bold"
+        android:hint="@string/titleHint"
+        android:padding="19dp"
+        android:textSize="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/undo_button"
+        android:layout_gravity="end|center_vertical"
+        android:text="@string/undoString"
+        android:textStyle="bold"
+        android:padding="23dp"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:clickable="true" />
+
+    <!--<Button
+        android:id="@+id/undo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNDO"
+        android:padding="23dp"
+        android:textSize="17dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:layout_gravity="end|center_vertical"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        />-->
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/todoDetail"
+        android:hint="Detail"
+        android:paddingTop="7dp"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:paddingBottom="11dp" />-->
+
+</LinearLayout>

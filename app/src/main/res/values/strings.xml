@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="newTodo">New Todo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainTitle">Todos</string>
+    <string name="completedTitle">Completed Todos</string>
+    <string name="titleHint">Title...</string>
+    <string name="detailHint">Detail...</string>
+    <string name="no_details">No Details</string>
+    <string name="undoString">UNDO</string>
+</resources>

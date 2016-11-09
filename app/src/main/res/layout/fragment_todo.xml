@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.praveen.todo.TodoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/viewPagerToolbar"
+                layout="@layout/toolbar" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/viewPagerTodoTitle"
+                android:background="@android:color/transparent"
+                android:textStyle="bold"
+                android:hint="@string/titleHint"
+                android:paddingTop="11dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:textSize="23dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/viewPagerTodoDetail"
+                android:background="@android:color/transparent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:paddingTop="17dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:paddingBottom="11dp"
+                android:hint="@string/detailHint" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

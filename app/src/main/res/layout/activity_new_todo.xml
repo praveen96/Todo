@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+        <include
+            android:id="@+id/newTodoToolbar"
+            layout="@layout/toolbar" />
+    
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/newTodoTitle"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:hint="@string/titleHint"
+            android:paddingTop="11dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:textSize="23dp" />
+    
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newTodoDetail"
+            android:background="@android:color/transparent"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:paddingTop="17dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:paddingBottom="11dp"
+            android:hint="@string/detailHint" />
+    
+    </LinearLayout>
+
+</ScrollView>
